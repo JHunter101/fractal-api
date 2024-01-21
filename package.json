@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JHunter101/fractal-api/issues"
   },
-  "homepage": "https://github.com/JHunter101/fractal-api#readme"
+  "homepage": "https://github.com/JHunter101/fractal-api#readme",
+  "publishConfig": {
+    "@JHunter101:registry": "https://npm.pkg.github.com"
+  }
 }
