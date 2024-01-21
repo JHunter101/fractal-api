@@ -1,10 +1,10 @@
 {
-  "name": "fractal-api",
+  "name": "@JHunter101/fractal-api",
   "version": "1.0.0",
   "description": "js library and black & white css theme used in projects by jhunter101",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
