@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*-------------------------------------------------------------- # Base Section Start--------------------------------------------------------------*/
-
 :root {
   --main-bg-color: #000;
   --accent-bg-color: #fff;
@@ -48,7 +46,7 @@ h1,
 h2 {
   text-transform: capitalize;
   font-size: min(7.5vw, 2.5rem);
-  margin: min(1.5vh, 0.5rem) 0;
+  margin: min(6vw, 2rem) 0;
   font-weight: 800;
 }
 
@@ -94,6 +92,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .section-container,
@@ -130,6 +129,12 @@ p {
   margin: min(1.5vw, 0.5rem);
   text-align: center;
   font-size: min(3vw, 1rem);
+}
+
+/*-------------------------------------------------------------- # Buttons Section --------------------------------------------------------------*/
+#buttons-top,
+#buttons-bot {
+  padding: 4vh 5vw;
 }
 
 .btn-black {

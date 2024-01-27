@@ -21,7 +21,10 @@ function getNextSeed(seed: number): number {
   return seed;
 }
 
-function seededRandom(seed: number): number {
+function seededRandom(seed = -1): number {
+  if (seed === -1) {
+    seed = getStoredSeed();
+  }
   const nextSeed = getNextSeed(seed);
   localStorage.setItem('seed', String(nextSeed));
   return nextSeed / 0x7fffffff;

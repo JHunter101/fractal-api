@@ -1,6 +1,6 @@
 {
   "name": "@JHunter101/fractal-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js library and black & white css theme used in projects by jhunter101",
   "main": "tailwind.config.js",
   "scripts": {
